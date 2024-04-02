@@ -1,0 +1,67 @@
+App.css
+
+
+
+*{
+  color: #ffff;
+  filter: opacity(1);
+  
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  background-color: black;
+}
+.background {
+  background-image: 
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 30%, transparent 100%),
+      linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 30%, transparent 100%),
+      url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  filter: brightness(150%);
+  
+}
+
+
+/* App.css */
+.Getstart {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 0.75rem 1.5rem;
+  background: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 10px;
+  height: 63px;
+}
+
+.email {
+  line-height: 1.5;
+  font-size: 1rem;
+  width: 24%;
+  padding: 0.8% 1%;
+  background: transparent;
+  border: 1px solid #fff; 
+    color: #fff;
+  height: 35px;
+font-weight: 600;border-radius: 7px;
+}
+
+.flex{
+  display: flex;
+}
+.centeroffer{
+  text-align: center;
+  margin-top: 220px;
+  padding-bottom: 240px;
+}
+
+.bordertop{
+  border-top: 10px solid #252424
+}
+.grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
